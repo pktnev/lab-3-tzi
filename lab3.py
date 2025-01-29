@@ -3,7 +3,6 @@ from tkinter import filedialog, messagebox
 
 
 # Алгоритм Гронсфельда
-# Алгоритм Гронсфельда
 def gronsfeld_cipher(text, key, mode="encrypt"):
     key = [int(digit) for digit in key]  # Перетворення ключа в список чисел
     alphabet = alphabet_entry.get().strip()  # Отримуємо алфавіт із GUI
